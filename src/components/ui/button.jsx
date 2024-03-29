@@ -37,7 +37,7 @@ const Button = React.forwardRef(({ className, variant, size, asChild = false, ..
   const Comp = asChild ? Slot : "button"
   return (
     (<Comp
-      className={`${cn(buttonVariants({ variant, size, className }))} hover:bg-transparent hover:text-[--neon-green] border-2 border-[--neon-green] transition-all delay-0 duration-500`}
+      className={`${cn(buttonVariants({ variant, size, className }))} bg-transparent text-[#39FF14] border-2 border-[--neon-green] rounded-full hover:bg-transparent hover:scale-125 duration-500 custom_button`}
       ref={ref}
       {...props} />)
   );
