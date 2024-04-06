@@ -7,8 +7,8 @@ const About = () => {
         <section className="bg-white">
             <div className="gap-16 items-center px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
                 <div className="grid grid-cols-2 gap-4">
-                    <img className="w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-2.png" alt="office content 1" />
-                    <img className="mt-4 w-full lg:mt-10 rounded-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-1.png" alt="office content 2" />
+                    <img className="w-full rounded-lg img_zoom transition-all duration-500" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-2.png" alt="office content 1" />
+                    <img className="mt-4 w-full lg:mt-10 rounded-lg img_zoom transition-all duration-500" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-1.png" alt="office content 2" />
                 </div>
                 <div className="font-light text-[--text-gray] sm:text-md mt-4 lg:mt-0">
                     <SectionTag>About Us</SectionTag>

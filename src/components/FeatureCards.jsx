@@ -39,7 +39,7 @@ const FeatureCards = () => {
       <div className='grid grid-cols-3 mt-8 gap-4 px-4'>
         {cardData?.map((data, index) => (
           <div className='col-span-1 p-8 hover:shadow-2xl rounded-lg transition-all duration-500 cursor-pointer'>
-            <div className='bg-red-400 w-fit p-4 rounded-full mb-4'>
+            <div className='bg-[--primary] w-fit p-4 rounded-full mb-4 text-white'>
               {data.Icon}
             </div>
             <div>
