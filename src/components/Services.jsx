@@ -64,9 +64,9 @@ const cardData = [
 
 const Services = () => {
   return (
-    <div>
+    <div className='my-10 mb-24'>
       <Heading subHeading={"Services"} heading={"What We Offer"} desc={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus commodo velit, id efficitur purus condimentum nec. Phasellus velit."} />
-      <div className='grid grid-cols-3 gap-4 my-10 px-4'>
+      <div className='grid md:grid-cols-3 gap-4 my-10 px-4'>
         {cardData.map((data, index) => (
           <div className='col-span-1 flex flex-col gap-4 p-10 bg-gray-50 rounded-lg hover:shadow-xl transition-all duration-500'>
             <div className='text-[--primary]'>

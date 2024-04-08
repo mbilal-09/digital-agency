@@ -4,10 +4,10 @@ import Image from 'next/image'
 
 const Projects = () => {
     return (
-        <div>
+        <div className='my-10'>
             <Heading subHeading={"Projects"} heading={"Explore our Work"} desc={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus commodo velit, id efficitur purus condimentum nec. Phasellus velit."} />
             <div className='my-10 px-4'>
-                <div class="grid gap-6 lg:grid-cols-3">
+                <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
                     <div
                         class="zoom relative overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20 bg-[50%]"
                         data-te-ripple-init data-te-ripple-color="dark">

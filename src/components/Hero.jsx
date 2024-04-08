@@ -5,7 +5,7 @@ import GradientText from './GradientText'
 
 const Hero = () => {
     return (
-        <div className='h-screen flex flex-col md:flex-row w-full mt-8 md:mt-0 md:justify-center items-center px-4'>
+        <div className='min-h-screen flex flex-col md:flex-row w-full mt-8 md:mt-0 gap-4 md:justify-center items-center px-4'>
             <div className='w-full md:w-1/2 pe-4 flex flex-col gap-3'>
                 <p className='text-[--primary] text-xl font-semibold'>WELCOME</p>
                 <p className='text-6xl font-bold'>Maximize Your <GradientText>Visiblity</GradientText></p>
