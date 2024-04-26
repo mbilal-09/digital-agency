@@ -2,12 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-    --primary: #2563eb;
-    --secondary: #0273b9;
-    --text-gray: #a0a0a0;
-}
-
 .zoom:hover img {
     transform: scale(1.1);
 }

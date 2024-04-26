@@ -69,11 +69,11 @@ const Services = () => {
       <div className='grid md:grid-cols-3 gap-4 my-10 px-4'>
         {cardData.map((data, index) => (
           <div className='col-span-1 flex flex-col gap-4 p-10 bg-gray-50 rounded-lg hover:shadow-xl transition-all duration-500'>
-            <div className='text-[--primary]'>
+            <div className='text-primary'>
               {data.Icon}
             </div>
             <p className='text-xl font-bold'>{data.heading}</p>
-            <p className='text-[--text-gray]'>{data.desc}</p>
+            <p className='text-gray'>{data.desc}</p>
           </div>
         ))}
       </div>
